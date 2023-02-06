@@ -1,0 +1,15 @@
+@import '../../variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-family;
+
+  // always keep full width/height and never show scrollbars
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
