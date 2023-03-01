@@ -1,25 +1,31 @@
 import React from "react";
 import styles from "./board.module.css";
 
-import BoardData from '../../../../assets/board.json'
 
-interface Board{
+import Chip from '../chip/Chip'
+
+export interface Tile{
   img: {
     src: string
     altText: string
   }
   title: string
+  clicked: boolean
 }
-export default function Board() {
-  const [board, setBoard] = React.useState<Board[]>(BoardData)
-
+interface BoardProps{
+  board: Tile[]
+  bingo: boolean
+  clickTile: (index: number) => void
+}
+export default function Board(props: BoardProps) {
   return (
-    <div className={styles.board}>
-      { board.map((item: Board, index: number) => {
+    <div className={`${styles.board} ${props.bingo ? styles.bingo : null}`}>
+      { props.board.map((tile: Tile, index: number) => {
         return (
-          <div key={index} className={styles.boardTile}>
-            <img src={item.img.src} alt={item.img.altText} />
-            <p>{item.title}</p>
+          <div key={index} className={styles.boardTile} onClick={()=>props.clickTile(index)}>
+            <img src={tile.img.src} alt={tile.img.altText}/>
+            <p>{tile.title}</p>
+            {tile.clicked ? <Chip/> : null}
           </div>
         )})
       }
