@@ -2,10 +2,12 @@ import React from 'react'
 import styles from './overlay.module.css'
 
 import Board from './board/Board'
+import Instructions from './instructions/Instructions'
 import { Tile } from './board/Board'
 import checkBingo from "./board/bingoChecker";
 
 import BoardData from '../../../assets/board.json'
+import Streamer from '../../../assets/streamer.json'
 
 export default function Overlay(){
   const randomizeBoard = (board: Tile[]) => {
@@ -27,6 +29,8 @@ export default function Overlay(){
   }
 
   const [isExtensionOpen, setIsExtensionOpen] = React.useState(false)
+  const [isInstructionsOpen, setIsInstructionsOpen] = React.useState(false)
+  const [streamer, setStreamer] = React.useState(Streamer.name)
 
   const [bingo, setBingo] = React.useState<boolean>(
     localStorage.getItem('bingo') ? JSON.parse(localStorage.getItem('bingo') || '')
@@ -46,10 +50,13 @@ export default function Overlay(){
   return (
     <div className={`${styles.overlay} ${styles.openExtensionButton} ${isExtensionOpen ? styles.open: styles.closed}`}>
       <main>
+        {isInstructionsOpen ? <Instructions closeInstructions={()=>setIsInstructionsOpen(false)} /> : null}
+
         <div className={styles.title}>
-          <h1>Streamer Bingo </h1>
-          <button className={styles.help}>?</button>
+          <h1>{streamer} Bingo </h1>
+          <button className={styles.help} onClick={()=>setIsInstructionsOpen(true)}>?</button>
         </div>
+
         <Board
           board={board}
           bingo={bingo}
