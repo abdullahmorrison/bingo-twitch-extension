@@ -9,7 +9,12 @@ import checkBingo from "./board/bingoChecker";
 import BoardData from '../../../assets/board.json'
 import Streamer from '../../../assets/streamer.json'
 
-export default function Overlay(){
+interface OverlayProps {
+  isOverlayVisible: boolean
+  isExtensionOpen: boolean
+  setIsExtensionOpen: (open: boolean) => void
+}
+export default function Overlay(props: OverlayProps){
   const randomizeBoard = (board: Tile[]) => {
     const boardCopy = [...board]
     for (let i = boardCopy.length - 1; i > 0; i--) {
@@ -28,9 +33,8 @@ export default function Overlay(){
     setBoard(randomizeBoard(newBoard))
   }
 
-  const [isExtensionOpen, setIsExtensionOpen] = React.useState(false)
   const [isInstructionsOpen, setIsInstructionsOpen] = React.useState(false)
-  const [streamer, setStreamer] = React.useState(Streamer.name)
+  const [streamer] = React.useState(Streamer.name)
 
   const [bingo, setBingo] = React.useState<boolean>(
     localStorage.getItem('bingo') ? JSON.parse(localStorage.getItem('bingo') || '')
@@ -48,7 +52,7 @@ export default function Overlay(){
   }, [board])
 
   return (
-    <div className={`${styles.overlay} ${styles.openExtensionButton} ${isExtensionOpen ? styles.open: styles.closed}`}>
+    <div className={`${styles.overlay} ${styles.openExtensionButton} ${props.isExtensionOpen && props.isOverlayVisible ? styles.open: styles.closed}`}>
       <main>
         {isInstructionsOpen ? <Instructions closeInstructions={()=>setIsInstructionsOpen(false)} /> : null}
 
@@ -71,7 +75,7 @@ export default function Overlay(){
         <span className={styles.credits}>Made by @AbdullahMorrison</span>
       </main>
 
-      <button className={styles.openExtensionButton} onClick={() => setIsExtensionOpen(!isExtensionOpen)}></button>
+      <button className={`${styles.openExtensionButton} ${props.isOverlayVisible? null : styles.hideOpenExtensionButton}`} onClick={() => props.setIsExtensionOpen(!props.isExtensionOpen)}></button>
     </div>
   )
 }
