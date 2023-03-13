@@ -1,7 +1,7 @@
 [
   {
     "img": {
-      "src": "https://static-cdn.jtvnw.net/emoticons/v2/301642297/static/light/3.0",
+      "src": "imgs/nmpChamp.jpg",
       "altText": "nmpChamp"
     },
     "title": "Malena Curses in Norwiegan",
@@ -9,7 +9,7 @@
   },
   {
     "img": {
-      "src": "https://cdn.frankerfacez.com/emoticon/128054/4",
+      "src": "imgs/OMEGALUL.png",
       "altText": "OMEGALUL"
     },
     "title": "GTR",
@@ -17,7 +17,7 @@
   },
   {
     "img": {
-      "src": "https://cdn.7tv.app/emote/61e32b713441abfa431ca77c/4x.webp",
+      "src": "imgs/Rime.webp",
       "altText": "Rime"
     },
     "title": "Russel Joins Stream",
@@ -25,7 +25,7 @@
   },
   {
     "img": {
-      "src": "https://cdn.7tv.app/emote/60af105db38361ea91a6b535/4x.webp",
+      "src": "imgs/PogO.webp",
       "altText": "PogO"
     },
     "title": "Nick PogO",
@@ -33,7 +33,7 @@
   },
   {
     "img": {
-      "src": "https://cdn.7tv.app/emote/60e0edfaf6ce8aae540b7cad/4x.webp",
+      "src": "imgs/YEPPERS.webp",
       "altText": "YEPPERS"
     },
     "title": "\"Am I a Loser?\"",
@@ -41,7 +41,7 @@
   },
   {
     "img": {
-      "src": "https://cdn.betterttv.net/emote/62387d9406fd6a9f5be7a56a/3x.webp",
+      "src": "imgs/DonoWall.webp",
       "altText": "DonoWall"
     },
     "title": "Nick Ignores Malena",
@@ -49,7 +49,7 @@
   },
   {
     "img": {
-      "src": "https://cdn.7tv.app/emote/63affc7cad551e191f8a0c18/4x.webp",
+      "src": "imgs/OneGuy.webp",
       "altText": "OneGuy"
     },
     "title": "Malena Gets One-Guyed",
@@ -57,7 +57,7 @@
   },
   {
     "img": {
-      "src": "https://static-cdn.jtvnw.net/emoticons/v2/301271642/static/light/3.0",
+      "src": "imgs/nmpLUL.jpg",
       "altText": "nmpLUL"
     },
     "title": "Nick Laugh",
@@ -65,7 +65,7 @@
   },
   {
     "img": {
-      "src": "https://cdn.7tv.app/emote/6336f2fa73d0849829e8b554/4x.webp",
+      "src": "imgs/peepoSnow.webp",
       "altText": "peepoSnow"
     },
     "title": "Nick Talks About his \"Dan-Drift\"",
@@ -73,7 +73,7 @@
   },
   {
     "img": {
-      "src": "https://cdn.7tv.app/emote/60b00d1f0d3a78a196f803e3/4x.webp",
+      "src": "imgs/ratJAM.webp",
       "altText": "ratJAM"
     },
     "title": "\"Beach Mouse Beach Beach Mouse\"",
@@ -81,7 +81,7 @@
   },
   {
     "img": {
-      "src": "https://cdn.7tv.app/emote/60afb25a566c3e1fc97d2fd2/4x.webp",
+      "src": "imgs/Jammies.webp",
       "altText": "Jammies"
     },
     "title": "25 Gifted Subs",
@@ -89,7 +89,7 @@
   },
   {
     "img": {
-      "src": "https://cdn.betterttv.net/emote/6104afda2d1eba5400d28cc0/3x.webp",
+      "src": "imgs/Pout.webp",
       "altText": "Pout"
     },
     "title": "Malena Fake Crying",
@@ -97,7 +97,7 @@
   },
   {
     "img": {
-      "src": "https://cdn.betterttv.net/emote/60bd0c94f8b3f62601c39a70/3x.webp",
+      "src": "imgs/ILOVEYOU.webp",
       "altText": "ILOVEYOU"
     },
     "title": "Nick Calls Malena Pretty",
@@ -105,7 +105,7 @@
   },
   {
     "img": {
-      "src": "https://cdn.betterttv.net/emote/60abf73467644f1d67e8c3a9/3x.webp",
+      "src": "imgs/nmpJOY.webp",
       "altText": "nmpJoy"
     },
     "title": "\"Merkel Here\"",
@@ -113,7 +113,7 @@
   },
   {
     "img": {
-      "src": "https://cdn.betterttv.net/emote/6325302b8d5463737707799a/3x.webp",
+      "src": "imgs/fenceSitter.webp",
       "altText": "fenceSitter"
     },
     "title": "Nick Fence-Sitting",
@@ -121,7 +121,7 @@
   },
   {
     "img": {
-      "src": "https://cdn.7tv.app/emote/614395ee0969108b67191dcf/4x.webp",
+      "src": "imgs/HYPERSFIRE.webp",
       "altText": "HYPERSFIRE"
     },
     "title": "\"You're Gaslighting\"",
@@ -129,7 +129,7 @@
   },
   {
     "img": {
-      "src": "https://static-cdn.jtvnw.net/emoticons/v2/302294082/static/light/3.0",
+      "src": "imgs/nmpBaby.jpg",
       "altText": "nmpBaby"
     },
     "title": "Nick Talks About Having Kids",
@@ -137,7 +137,7 @@
   },
   {
     "img": {
-      "src": "https://cdn.7tv.app/emote/6223c1df043b2a353ec861c2/4x.webp",
+      "src": "imgs/peepoPineapple.webp",
       "altText": "peepoPineapple"
     },
     "title": "\"Pineapple\"",
@@ -145,7 +145,7 @@
   },
   {
     "img": {
-      "src": "https://cdn.7tv.app/emote/60ae4a875d3fdae583c64313/4x.webp",
+      "src": "imgs/FeelsDankMan.webp",
       "altText": "FeelsDankMan"
     },
     "title": "Nick Weaponizing Incompetence",
@@ -153,7 +153,7 @@
   },
   {
     "img": {
-      "src": "https://cdn.7tv.app/emote/60be91ac412138e6fa80284d/4x.webp",
+      "src": "imgs/PepegaAim.webp",
       "altText": "PepegaAim"
     },
     "title": "Nick is Bad at a Game",
@@ -161,7 +161,7 @@
   },
   {
     "img": {
-      "src": "https://cdn.7tv.app/emote/62e377759ce2d5128d810af0/4x.webp",
+      "src": "imgs/gigatrash.webp",
       "altText": "gigatrash"
     },
     "title": "Nick Eating Wattaburger",
@@ -169,7 +169,7 @@
   },
   {
     "img": {
-      "src": "https://cdn.7tv.app/emote/626957f26616fad25e4d3962/4x.webp",
+      "src": "imgs/Lemon.webp",
       "altText": "Lemon"
     },
     "title": "\"Ugly\"",
@@ -177,7 +177,7 @@
   },
   {
     "img": {
-      "src": "https://static-cdn.jtvnw.net/emoticons/v2/308115060/static/light/3.0",
+      "src": "imgs/nmp7.jpg",
       "altText": "nmp7"
     },
     "title": "Nick Talks About Polomnism",
@@ -185,7 +185,7 @@
   },
   {
     "img": {
-      "src": "https://cdn.7tv.app/emote/60b2cce90616dd6156d14fc0/4x.webp",
+      "src": "imgs/Latege.webp",
       "altText": "Latege"
     },
     "title": "Malena Late for Stream",
@@ -193,7 +193,7 @@
   },
   {
     "img": {
-      "src": "https://cdn.7tv.app/emote/623e7376c7e06d258fa65ddb/4x.webp",
+      "src": "imgs/Smil.webp",
       "altText": "Smil"
     },
     "title": "Malena Makes Weird Noises",
