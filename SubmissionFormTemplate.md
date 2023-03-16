@@ -1,4 +1,4 @@
-This extension allows users to play a bingo game about the streamer (STREAMER).
+This extension allows users to play a bingo game about the streamer Nmplol.
 
 I submitted an Obfuscation Intake Request form because the build is not human-readable. The ZIP file attached to that form is the extension code.
 
