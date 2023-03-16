@@ -161,10 +161,10 @@
   },
   {
     "img": {
-      "src": "imgs/gigatrash.webp",
-      "altText": "gigatrash"
+      "src": "imgs/questionMark.png",
+      "altText": "Question Marks"
     },
-    "title": "Nick Eating Wattaburger",
+    "title": "Malena Gives Her Take",
     "clicked": false
   },
   {
