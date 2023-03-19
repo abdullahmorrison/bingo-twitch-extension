@@ -1,202 +1,202 @@
 [
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "./imgs/4Ton.webp",
+      "altText": "4Ton"
     },
-    "title": "",
+    "title": "Britt Breaks her Diet",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "imgs/4Mad.webp",
+      "altText": "4Mad"
     },
-    "title": "",
+    "title": "Emmy Cries on Stream",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "imgs/AIRWICK.webp",
+      "altText": "AIRWICK"
     },
-    "title": "",
+    "title": "Nagging Erobb",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "imgs/rooster.png",
+      "altText": "rooster"
     },
-    "title": "",
+    "title": "Hiccup",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "imgs/Regret.webp",
+      "altText": "Regret"
     },
-    "title": "",
+    "title": "Eric Pretends Britt's Food is Good",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "imgs/Swagging.webp",
+      "altText": "Swagging"
     },
-    "title": "",
+    "title": "\"Alexa, Play Turn my Swag on\"",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "imgs/4Ton.webp",
+      "altText": "4Ton"
     },
-    "title": "",
+    "title": "Kato Waiting for Food",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "imgs/Mogre.webp",
+      "altText": "Mogre"
     },
-    "title": "",
+    "title": "Macaiyla Enters the Chat",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "imgs/ROACH.webp",
+      "altText": "ROACH"
     },
-    "title": "",
+    "title": "Roach Spotted",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "imgs/limeJAM.webp",
+      "altText": "limeJAM"
     },
-    "title": "",
+    "title": "CuckFM",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "imgs/Regret.webp",
+      "altText": "Regret"
     },
-    "title": "",
+    "title": "Food is Raw",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "imgs/Regret.webp",
+      "altText": "Regret"
     },
-    "title": "",
+    "title": "Food is Burnt",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
+      "src": "imgs/trollFace.png",
       "altText": ""
     },
-    "title": "",
+    "title": "\"Alexa, Set a Timer\"",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "imgs/kek.webp",
+      "altText": "kek"
     },
-    "title": "",
+    "title": "Chatterino Ping",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "imgs/CiGrip.webp",
+      "altText": "CiGrip"
     },
-    "title": "",
+    "title": "Britt is off the Zaza",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "imgs/DonoWall.webp",
+      "altText": "DonoWall"
     },
-    "title": "",
+    "title": "Alex Ignores Dono",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "imgs/Texime.webp",
+      "altText": "Texime"
     },
-    "title": "",
+    "title": "Stream F",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "imgs/Regret.webp",
+      "altText": "Regret"
     },
-    "title": "",
+    "title": "Food is Dry",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "imgs/Regret.webp",
+      "altText": "Regret"
     },
-    "title": "",
+    "title": "Starting Over Food",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "imgs/Texime.webp",
+      "altText": "Texime"
     },
-    "title": "",
+    "title": "Short Stream",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "imgs/MODS.webp",
+      "altText": "MODS"
     },
-    "title": "",
+    "title": "Chatter Being Nice",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "imgs/Pain.webp",
+      "altText": "Pain"
     },
-    "title": "",
+    "title": "Desktop Stream",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "imgs/TikTok.png",
+      "altText": "TikTok"
     },
-    "title": "",
+    "title": "TikTok Recipe",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "imgs/HelloFresh.png",
+      "altText": "HelloFresh"
     },
-    "title": "",
+    "title": "HelloFresh Recipe",
     "clicked": false
   },
   {
     "img": {
-      "src": "",
-      "altText": ""
+      "src": "imgs/Jackass.webp",
+      "altText": "Jackass"
     },
-    "title": "",
+    "title": "Tells Emmy to \"Go to Daddy\"",
     "clicked": false
   }
 ]
