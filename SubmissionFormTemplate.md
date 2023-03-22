@@ -8,9 +8,14 @@ Chatbot Commands:
 
 - !bingo: opens the overlay bingo board
 
+External Links:
+
+- View Git Repo: the link to the git repo of the extension
+
 Allowlist explanations:
 
 - wss://irc-ws.chat.twitch.tv:443, ws://irc-ws.chat.twitch.tv:80, irc://irc.chat.twitch.tv:6667, irc://irc.chat.twitch.tv:6697: urls the the chatbot connects to.
+- https://github.com/abdullahmorrison/BingoTwitchExtension/tree/Brittt: the link to the git repo of the extension
 
 Start the application locally:
 
