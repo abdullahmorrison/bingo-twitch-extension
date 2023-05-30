@@ -4,7 +4,8 @@ The overlay uses a built-in chatbot to display the bingo board.
 
 ChangeLog:
 
-- Overlay hides after 5 seconds of cursor inactivity on the overlay
+- bingo tab to open the overlay is smaller
+- cursor hides after 5 seconds of inactivity
 
 Chatbot Commands:
 
