@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import styles from "./board.module.css";
 
 import Chip from '../chip/Chip'
@@ -16,35 +16,23 @@ export interface Tile{
   clicked: boolean
 }
 export default function Board() {
-  const randomizeBoard = (board: Tile[]) => {
-    const boardCopy = [...board]
-    for (let i = boardCopy.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [boardCopy[i], boardCopy[j]] = [boardCopy[j], boardCopy[i]];
-    }
-    return boardCopy
-  }
-  const [board, setBoard] = React.useState<Tile[]>(
+  const [board, setBoard] = useState<Tile[]>(
     localStorage.getItem('board') ? JSON.parse(localStorage.getItem('board') || '')
-    : randomizeBoard(BoardData)
+    : // get 25 random tiles from BoardData to create a board
+    BoardData.sort(() => Math.random() - 0.5).slice(0, 25)
   )
 
-  const handleNewGame = () => {
-    const newBoard = BoardData.map((tile: Tile) => {
-      return {
-        ...tile,
-        clicked: false
-      }
-    })
-    setBoard(randomizeBoard(newBoard))
-  }
+  const handleNewGame = useCallback(() => {
+    const newBoard = BoardData.sort(() => Math.random() - 0.5).slice(0, 25)
+    setBoard(newBoard)
+  }, [])
 
-  const [bingo, setBingo] = React.useState<boolean>(
+  const [bingo, setBingo] = useState<boolean>(
     localStorage.getItem('bingo') ? JSON.parse(localStorage.getItem('bingo') || '')
     : false
   )
 
-  React.useEffect(() => {
+  useEffect(() => {
     localStorage.setItem('board', JSON.stringify(board))
     localStorage.setItem('bingo', JSON.stringify(bingo))
     checkBingo(board) ? setBingo(true) : setBingo(false)
@@ -78,3 +66,4 @@ export default function Board() {
     </div>
   );
 }
+

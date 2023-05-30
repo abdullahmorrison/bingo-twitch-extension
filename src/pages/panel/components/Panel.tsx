@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import Board from "../../../global/board/Board";
 import Instructions from "../../../global/instructions/Instructions";
@@ -6,7 +6,7 @@ import Streamer from "../../../assets/streamer.json";
 import styles from "./panel.module.css";
 
 export default function Panel() {
-  const [streamer] = React.useState(Streamer)
+  const [streamer] = useState(Streamer)
   const [isInstructionsOpen, setIsInstructionsOpen] = React.useState(false)
 
   return (
