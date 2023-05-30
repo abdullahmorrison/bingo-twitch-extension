@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import ChipData from "../../assets/chip.json"
 
@@ -11,7 +11,7 @@ interface Chip{
   }
 }
 export default function Chip() {
-  const [chip]= React.useState<Chip>(ChipData);
+  const [chip]= useState<Chip>(ChipData);
 
   return (
     <div className={styles.chip}>
