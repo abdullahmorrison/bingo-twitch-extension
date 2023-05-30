@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './overlay.module.css'
 
 import Board from '../../../global/board/Board'
@@ -12,8 +12,8 @@ interface OverlayProps {
   setIsExtensionOpen: (open: boolean) => void
 }
 export default function Overlay(props: OverlayProps){
-  const [isInstructionsOpen, setIsInstructionsOpen] = React.useState(false)
-  const [streamer] = React.useState(Streamer)
+  const [isInstructionsOpen, setIsInstructionsOpen] = useState(false)
+  const [streamer] = useState(Streamer)
 
   return (
     <div className={`${styles.overlay} ${styles.openExtensionButton} ${props.isExtensionOpen && props.isOverlayVisible ? styles.open: styles.closed}`}>

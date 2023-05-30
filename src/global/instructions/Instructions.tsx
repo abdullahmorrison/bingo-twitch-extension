@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import styles from './instructions.module.css'
 
@@ -8,7 +8,7 @@ interface InstructionsProps {
   closeInstructions: () => void
 }
 export default function Instructions(props: InstructionsProps){
-  const [streamer] = React.useState(Streamer)
+  const [streamer] = useState(Streamer)
 
   return (
     <div className={styles.background}>
