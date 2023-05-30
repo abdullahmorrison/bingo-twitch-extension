@@ -8,7 +8,6 @@ $widths: (
 );
 
 .closed{//overlay position when closed
-  //
   left: (map-get($widths, (normal-width)) + 5) * -1;
   @media screen and (max-height: map-get($breakpoints, m)){ left: (map-get($widths, (small-width)) + 5) * -1; }
   @media screen and (max-height: map-get($breakpoints, s)){ left: (map-get($widths, (smaller-width)) + 5) * -1; }
@@ -91,7 +90,7 @@ $widths: (
     position: relative;
     transition: width 0.1s ease-in-out ;
 
-    height: 200px;
+    height: 100px;
     width: 15px;
 
     &:hover{
@@ -101,7 +100,7 @@ $widths: (
       content: '';
       position: absolute;
       transform: rotate(-90deg);
-      top: 50%;
+      top: calc(50% - 3px);
       right: calc(50% - 14px);
 
       width: 0;
@@ -128,3 +127,4 @@ button{
     cursor: pointer;
   }
 }
+
