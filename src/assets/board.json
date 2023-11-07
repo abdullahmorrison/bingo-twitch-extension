@@ -1,7 +1,79 @@
 [
   {
     "img": {
-      "src": "./imgs/4Ton.webp",
+      "src": "imgs/lilpup.webp",
+      "altText": "lilpup"
+    },
+    "title": "Orange Thread in Chat",
+    "clicked": false
+  },
+  {
+    "img": {
+      "src": "imgs/OOOO.webp",
+      "altText": "OOOO"
+    },
+    "title": "Clips Playing",
+    "clicked": false
+  },
+  {
+    "img": {
+      "src": "imgs/Ogre.webp",
+      "altText": "Ogre"
+    },
+    "title": "Erobb Lounging",
+    "clicked": false
+  },
+  {
+    "img": {
+      "src": "imgs/Jackass.webp",
+      "altText": "Jackass"
+    },
+    "title": "Erobb Refuses to Help Britt",
+    "clicked": false
+  },
+  {
+    "img": {
+      "src": "imgs/FunDetected.webp",
+      "altText": "FunDetected"
+    },
+    "title": "Britt Bossing Emmy",
+    "clicked": false
+  },
+  {
+    "img": {
+      "src": "imgs/BatChesting.webp",
+      "altText": "BatChesting"
+    },
+    "title": "Pokemon Pack Opening",
+    "clicked": false
+  },
+  {
+    "img": {
+      "src": "imgs/Susge.webp",
+      "altText": "Susge"
+    },
+    "title": "Britt hasn't Clucked in a While",
+    "clicked": false
+  },
+  {
+    "img": {
+      "src": "imgs/OOOO.webp",
+      "altText": "OOOO"
+    },
+    "title": "Stream Passes 3 Hours",
+    "clicked": false
+  },
+  {
+    "img": {
+      "src": "imgs/heCrazy.webp",
+      "altText": "heCrazy"
+    },
+    "title": "Field Trip Time",
+    "clicked": false
+  },
+  {
+    "img": {
+      "src": "imgs/4Ton.webp",
       "altText": "4Ton"
     },
     "title": "Britt Breaks her Diet",
@@ -17,8 +89,8 @@
   },
   {
     "img": {
-      "src": "imgs/AIRWICK.webp",
-      "altText": "AIRWICK"
+      "src": "imgs/NAGGING.webp",
+      "altText": "NAGGING"
     },
     "title": "Nagging Erobb",
     "clicked": false
@@ -53,14 +125,6 @@
       "altText": "4Ton"
     },
     "title": "Kato Waiting for Food",
-    "clicked": false
-  },
-  {
-    "img": {
-      "src": "imgs/Mogre.webp",
-      "altText": "Mogre"
-    },
-    "title": "Macaiyla Enters the Chat",
     "clicked": false
   },
   {
