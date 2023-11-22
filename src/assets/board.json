@@ -1,6 +1,22 @@
 [
   {
     "img": {
+      "src": "imgs/DansGame.png",
+      "altText": "DansGame"
+    },
+    "title": "Burps",
+    "clicked": false
+  },
+  {
+    "img": {
+      "src": "imgs/Orange.webp",
+      "altText": "Orange"
+    },
+    "title": "Eric Caught Playing Tetris",
+    "clicked": false
+  },
+  {
+    "img": {
       "src": "imgs/lilpup.webp",
       "altText": "lilpup"
     },
